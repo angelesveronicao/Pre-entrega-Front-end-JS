@@ -239,10 +239,25 @@ footer .footer-list {
   header,
   footer {
     flex-direction: column;
+    padding-bottom: 1rem;
   }
 
   .header-nav,
   .div-logo {
     margin: 0;
   }
+
+  .header-nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+
+  .header-nav a {
+    font-size: 2rem;
+    padding: 0.8rem 1rem;
+  }
+  .footer-list {
+    padding: 0;
+}
 }
