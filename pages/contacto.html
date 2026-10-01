@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" 
+    rel="stylesheet">    
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Document</title>
+</head>
+<body>
+     <header>
+        <div class="div-logo"> <a class= "logo" href="../index.html"> <img src="../img/logotufting.jfif" alt="Logo" width="100" height="100"></a></div>
+    <nav class="header-nav">
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="about.html">Quienes Somos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <section class="contacto">
+            <h1 class="contacto-title">Contacto</h1>
+            <p>¿Tienes alguna pregunta? ¡No dudes en contactarnos!</p>
+        </section>
+        <form class="contacto-form" action="https://formspree.io/f/maeyypvd" method="POST">
+            <div class="grupo-input">
+                <label for="nombre"> Nombre: <input type="text" id="nombre" name="nombre" required></label><br>
+                <label for="email"> Email: <input type="email" id="email" name="email" required></label><br>
+                <label for="mensaje"> Mensaje: <textarea id="mensaje" name="mensaje" required></textarea></label><br>
+            </div>
+            <button class="btn" type="submit">Enviar</button>
+        </form>
+    </main>
+    <footer>
+       <p>Sitio realizado por Veronica Ovejero</p>
+      <nav>
+        <ul class="footer-list">
+          <li><img src="../img/whatsapp.png" alt="logo-whatsapp" /></li>
+          <li><img src="../img/instagram.png" alt="logo-instagram" /></li>
+        </ul>
+      </nav>
+    </footer>
+</body>
+</html>
